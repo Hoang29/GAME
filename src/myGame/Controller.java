@@ -11,6 +11,7 @@ public class Controller {
     public void showMyGame(Stage primaryStage) throws IOException {
         FXMLLoader loadGame = new FXMLLoader();
         loadGame.setLocation(Controller.class.getResource("myGame.fxml"));
+
         Scene scene= new Scene(loadGame.load());
         primaryStage.setTitle("MyGame");
         primaryStage.setWidth(500);
